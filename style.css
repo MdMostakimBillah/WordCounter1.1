@@ -166,7 +166,7 @@ hr{
 }
 @media (max-width:600px) {
     body{
-        display:block;
+        display:block !important;
     }
     section{
         display: block;
