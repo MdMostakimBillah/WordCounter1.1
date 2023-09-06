@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.left,
+.right{
+    border-radius: 15px;
+    background: rgba(217, 217, 217, 0.20);
+    backdrop-filter: blur(5.5px);
+}
+.left{
+    width: 75%;
+    height: 100%;
+}
+.left-header{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(217, 217, 217, 0.50);
+    box-shadow: 5px 23px 7px -11px rgb(0 0 0 / 11%);
+    padding: 20px 5px;
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+.left-header h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.text-area-part textarea{
+    width: 100%;
+    height: 300px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    resize: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.right{
+    width: 24%;
+    height: 100%;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #b5b5b5;
+}
+.text-area-part
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 7px;
+    margin-bottom: 5px;
+}
+.text-area-part span{
+    border-radius: 8px;
+    background: rgba(217, 217, 217, 0.20);
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+.text-area-part span.title{
+    width: 60%;
+    padding: 10px 15px;
+}
+.text-area-part span.counter{
+    width: 30%;
+    padding: 10px 10px;
+    text-align: center;
+}
+.lastWord{
+    padding: 5px 7px;
+}
+.lastWord h5{
+    width: 60%;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    background: rgba(217, 217, 217, 0.50);
+    box-shadow: 5px 23px 7px -11px rgba(0, 0, 0, 0.151);
+}
+.lastWord div{
+    border-radius: 8px;
+    background: rgba(217, 217, 217, 0.20);
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.25);
+    height: 70px;
+    display: flex;
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width:1150px) {
+    section
+    {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:950px) {
+    .text-area-part span{
+        font-size: 15px;
+    }
+    .text-area-part{
+        margin-bottom: 0;
+    }
+    .left-header h2 {
+        color: #fff;
+        font-size: 25px !important;
+        font-weight: 600;
+    }
+    .left-header{
+        margin-top: -40px;
+    }
+}
+
+@media (max-width:850px) {
+    .left{
+        width: 60%;
+        height: 100%;
+    }
+    .right{
+        width: 39%;
+        height: 100%;
+    }
+}
+@media (max-width:600px) {
+    section{
+        display: block;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+    }
+    .right{
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+    }
+    .left-header
+    {
+        margin-bottom: 10px;
+    }
+}
