@@ -169,6 +169,7 @@ hr{
         display:block !important;
     }
     section{
+        margin-top: 50px;
         display: block;
     }
     .left{
