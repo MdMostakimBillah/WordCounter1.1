@@ -43,7 +43,7 @@ textArea.addEventListener('input', function(){
     let voweCount = '';
     let consonentCount = '';
     for(vowel of countSentence){
-        if(vowel === "A" || vowel === "a" || vowel === "E" || vowel === "e" || vowel === "I" || vowel === "O" || vowel === "o" || vowel === "u" || vowel === "U"){
+        if(vowel === "A" || vowel === "a" || vowel === "E" || vowel === "e" || vowel === "I" || vowel === "i" || vowel === "O" || vowel === "o" || vowel === "u" || vowel === "U"){
             voweCount++;
         }else{
             consonentCount++;
